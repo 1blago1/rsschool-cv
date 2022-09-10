@@ -100,14 +100,16 @@
         <div class="about_me__ed">
           <h2 class="about_me__h">Code examples:</h2>
           <pre class="adout_me__code">
-            function factorial(n) {
-              if (n === 0) {
-                return 1;
-              } else if (n &lt 0 || n &gt 12) {
-                throw  new RangeError("RangeError")
+            <code>
+              function factorial(n) {
+                if (n === 0) {
+                  return 1;
+                } else if (n &lt 0 || n &gt 12) {
+                   throw  new RangeError("RangeError")
+                }
+                return n * factorial(n - 1);
               }
-              return n * factorial(n - 1);
-            }
+            </code>
           </pre>
         </div>
       </div>
